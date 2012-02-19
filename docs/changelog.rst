@@ -25,6 +25,8 @@ would have also been included in the 1.2 line.
 Changelog
 =========
 
+* :feature:`563` Implemented :ref:`Python-level host aliasing <host-aliases>`
+  as a compliment to the SSH config aliasing available in 1.4.
 * :feature:`627` Added convenient ``quiet`` keyword argument to
   `~fabric.operations.run`/`~fabric.operations.sudo` (plus a `context manager
   version <fabric.context_managers.quiet>`) which is an alias for
